@@ -15,7 +15,7 @@ function App() {
         return response.json();
       })
       .then((data) => {
-        console.log(data);
+        
         if (data.cod >= 400) {
           setValues(false);
         } else {
@@ -24,12 +24,12 @@ function App() {
         }
       })
       .catch((error) => {
-        console.log(error);
+        
       });
   };
   const handleSearch = (e) => {
     if (e.key === "Enter") {
-      console.log(e.target.value);
+     
       setSearch(e.target.value);
     }
   };

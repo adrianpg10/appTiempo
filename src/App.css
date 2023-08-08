@@ -20,14 +20,14 @@ body {
 
 .input-field input {
 
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   height: 40px;
   border-radius: 10px;
   padding: 5px 30px 5px 10px;
   border: none;
   background: #F5F5F7;
   outline: none;
-
+width: 10rem;
 
 }
 
@@ -37,7 +37,7 @@ body {
   top: 0;
   height: 100%;
   color: #333336;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 .busquedaContenedor {
@@ -119,7 +119,7 @@ body {
 
 
 .card-info {
-  width: 50%;
+  width: 60%;
 }
 
 .temp {
@@ -133,7 +133,7 @@ body {
 }
 
 .icon {
-  width: 50%;
+  width: 40%;
 
 }
 
@@ -224,6 +224,8 @@ body {
 @media all and (min-width:820px) {
   .input-field input {
     width: 30rem;
+    font-size: 1.2rem;
+    
   }
 
   .card {
@@ -237,6 +239,10 @@ body {
   .logo {
     margin-left: 3rem;
   }
+  .botonBusqueda {
+
+    font-size: 2rem;
+  }
 }
 
 @media all and (min-width:1280px) {
@@ -246,6 +252,7 @@ body {
 
   .input-field input {
     width: 50rem;
+ 
 
   }
 
