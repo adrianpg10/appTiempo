@@ -12,5 +12,5 @@ Aplicación del tiempo realizado en React.
 
 ## Ver en directo en netlify
 
-* [https://adrianperezportfolio.netlify.app/](https://eltiemporezadri.netlify.app/)
+* [https://eltiemporezadri.netlify.app/](https://eltiemporezadri.netlify.app/)
 
